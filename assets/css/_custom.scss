@@ -1,0 +1,160 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+
+.home.posts {
+  .fixit-docs-navigation {
+    margin: 0;
+  }
+}
+
+.quick-start-container {
+  text-align: center;
+  padding-block: 2rem;
+
+  .banner-start-commands {
+    width: 230px;
+    text-align: left;
+    margin: 0 auto !important;
+    padding-inline: 1rem !important;
+
+    // command line
+    span {
+      display: block;
+      &::before {
+        content: "$";
+        opacity: 0.5;
+        padding-right: 0.5rem;
+      }
+    }
+  }
+
+  .quick-start-btn {
+    display: inline-block;
+    width: 230px;
+    border-radius: 8px;
+    transition: background-color 0.5s, color 0.5s;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 1rem;
+    margin-block: 1rem;
+    letter-spacing: 4px;
+    background-color: #42b883;
+    color: #fff !important;
+
+    i {
+      transition: transform 0.2s;
+    }
+
+    &:hover {
+      background-color: #33a06f;
+      transition-duration: 0.2s;
+
+      i {
+        transform: translate(2px);
+      }
+
+      [data-theme='dark'] & {
+        background-color: #42d392;
+        color: #f0f0f0;
+      }
+    }
+  }
+}
+
+.aside-custom {
+  &:not(:first-child) {
+    margin-top: 1rem;
+  }
+}
+
+.hr-edge-weak {
+  border: 0;
+  padding-top: 1px;
+  background: linear-gradient(to right, transparent, var(--hr-color, #d0d0d5), transparent);
+}
+
+#toc-auto {
+  .follow-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-inline: 10px;
+
+    .author-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+
+      .author-avatar {
+        width: 34px;
+        border-radius: 50%;
+        border: 1px solid $global-border-color;
+  
+        [data-theme='dark'] & {
+          border-color: $global-border-color-dark;
+        }
+      }
+    }
+    .follow-btn {
+      border: 1px solid var(--follow-btn-border-color, #d1d9e0);
+      background-color: var(--follow-btn-bg-color, #f6f8fa);
+      border-radius: 6px;
+      padding: 4px 10px;
+      flex-shrink: 0;
+      font-size: 14px;
+      line-height: 20px;
+      color: var(--follow-btn-color, #25292e);
+
+      [data-theme='dark'] & {
+        --follow-btn-color: #d1d7e0;
+        --follow-btn-border-color: #3d444d;
+        --follow-btn-bg-color: #2a313c;
+      }
+
+      &:active,
+      &:hover {
+        --follow-btn-border-color: #d1d9e0;
+        --follow-btn-bg-color: #eff2f5;
+        --fa-animation-iteration-count: 0;
+        transition-duration: .1s;
+
+        i {
+          --fa: "\2b";
+        }
+
+        [data-theme='dark'] & {
+          --follow-btn-border-color: #3d444d;
+          --follow-btn-bg-color: #2f3742;
+        }
+      }
+    }
+  }
+  // 临时修复高度计算错误的问题
+  .toc-content {
+    max-height: calc(100vh - 13rem);
+  }
+}
+
+[lang='en'] {
+  .collection-details .collection-summary .collection-name::before {
+    content: '';
+  }
+}
+
+// .single {
+//   // Content adapter generated posts style
+//   &[data-adapters='projects'] {
+//     // write here
+//   }
+// }
+
+// ==============================
+// Mobile style
+// ==============================
+@media only screen and (max-width: 680px) {
+  //
+}

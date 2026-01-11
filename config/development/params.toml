@@ -1,0 +1,27 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
+# -------------------------------------------------------------------------------------
+
+[postChat]
+enable = false
+hotWords = false
+
+[postSummary]
+enable = false
+
+# FixIt 0.2.15 | NEW Developer options
+# Configure with environment variable HUGO_PARAMS_GHTOKEN=xxx, see https://gohugo.io/functions/os/getenv/#examples
+[dev]
+enable = false
+# Check for updates
+c4u = true
+
+# -------------------------------------------------------------------------------------
+# Theme Components Configuration | 主题组件配置
+# -------------------------------------------------------------------------------------
+
+# Content adapters config for component projects
+# https://github.com/hugo-fixit/component-projects
+[projectsAdapters]
+enable = false

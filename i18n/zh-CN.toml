@@ -1,0 +1,13 @@
+# Translations for Simplified Chinese
+# 简体中文的翻译
+# 对于页面的翻译，可以在 Front Matter 中设置 `translationKey`
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === shortcodes/admonition.html ===
+[admonition]
+ban = "禁止"
+# === shortcodes/admonition.html ===
+
+[follow]
+btn = "关注"
+title = "关注我的 GitHub！"

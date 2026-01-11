@@ -1,0 +1,61 @@
+name: Update Algolia Search Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'assets/**'
+      - 'config/**'
+      - 'content/**'
+      - 'data/**'
+      - 'static/**'
+      - 'themes/**'
+      - go.mod
+      - go.sum
+  workflow_dispatch:
+
+jobs:
+  algolia-atomic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
+          extended: true
+
+      - uses: pnpm/action-setup@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - name: Install dependencies
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Update Algolia Index (en)
+        env:
+          ALGOLIA_APP_ID: YKOM6PKLUY
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: index.en
+          ALGOLIA_INDEX_FILE: ./public/search.json
+        run: |
+          pnpm algolia
+
+      - name: Update Algolia Index (zh-cn)
+        env:
+          ALGOLIA_APP_ID: YKOM6PKLUY
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: index.zh-cn
+          ALGOLIA_INDEX_FILE: ./public/zh-cn/search.json
+        run: |
+          pnpm algolia
