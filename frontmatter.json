@@ -95,32 +95,12 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/content/zh-cn/showcase",
-      "title": "showcase"
-    },
-    {
-      "title": "guides",
-      "path": "[[workspace]]/content/zh-cn/guides"
-    },
-    {
       "path": "[[workspace]]/content/en/showcase",
       "title": "showcase"
     },
     {
       "title": "references",
       "path": "[[workspace]]/content/en/references"
-    },
-    {
-      "title": "references",
-      "path": "[[workspace]]/content/zh-cn/references"
-    },
-    {
-      "title": "documentation",
-      "path": "[[workspace]]/content/zh-cn/documentation"
-    },
-    {
-      "title": "contributing",
-      "path": "[[workspace]]/content/zh-cn/contributing"
     },
     {
       "title": "guides",
@@ -137,10 +117,6 @@
     {
       "path": "[[workspace]]/content/en/ecosystem",
       "title": "ecosystem"
-    },
-    {
-      "title": "ecosystem",
-      "path": "[[workspace]]/content/zh-cn/ecosystem"
     }
   ],
   "frontMatter.framework.startCommand": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0",
