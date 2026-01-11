@@ -1,21 +1,16 @@
 # -------------------------------------------------------------------------------------
-# Languages Configuration | 多语言配置
+# Languages Configuration |
 # See: https://gohugo.io/configuration/languages/
 # -------------------------------------------------------------------------------------
 
 weight = 1
 # language directory
-# 语言目录
 contentDir = "content/en"
 # language code
-# 网站语言
 languageCode = "en"
 # language name
-# 语言名称
 languageName = "English"
 # whether to include Chinese/Japanese/Korean
-# 是否包括中日韩文字
 hasCJKLanguage = false
 # copyright description used only for seo schema
-# 版权描述，仅用于 SEO
 copyright = "This work is licensed under CC BY-NC-SA-4.0."
