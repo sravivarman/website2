@@ -1,5 +1,5 @@
 ---
-title: Advanced Usage
+title: Advanced Usages
 date: 2024-04-06T12:59:28+08:00
 author:
   name: Lruihao
