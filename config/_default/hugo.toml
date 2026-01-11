@@ -7,7 +7,7 @@
 title = "FixIt"
 
 # Hostname (and path) to the root
-baseURL = "http://localhost:1313/"
+baseURL = "https://sravivarman.github.io/website2/"
 
 # theme
 # theme = ["FixIt", "shortcode-rewards"]
