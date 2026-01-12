@@ -79,7 +79,7 @@ dark = "#252627"
 [search]
 enable = true
 # type of search engine ["algolia", "fuse", "cse"]
-type = "algolia"
+type = "fuse"
 # max index length of the chunked content
 contentLength = 4000
 # placeholder of the search bar

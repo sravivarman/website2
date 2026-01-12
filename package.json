@@ -24,7 +24,6 @@
     "node": ">=20.17"
   },
   "scripts": {
-    "algolia": "atomic-algolia",
     "lint": "eslint && autocorrect content --lint && markdownlint-cli2 \"content/**/*.md\"",
     "lint:fix": "eslint --fix && autocorrect content --fix && markdownlint-cli2 \"content/**/*.md\" --fix",
     "prepare": "simple-git-hooks",
@@ -36,7 +35,6 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",
-    "atomic-algolia": "^0.3.19",
     "autocorrect-node": "^2.14.0",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.2",

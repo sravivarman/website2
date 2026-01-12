@@ -8,9 +8,6 @@ dir = "content/en"
 
 [search]
 
-[search.algolia]
-index = "index.en"
-
 [cse]
 
 [cse.google]
@@ -36,7 +33,7 @@ title = "AI Summary"
 [header]
 
 [header.subtitle]
-name = "Learn, While You Can..."
+name = ""
 
 [home]
 
