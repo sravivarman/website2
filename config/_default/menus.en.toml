@@ -1,7 +1,162 @@
 # -------------------------------------------------------------------------------------
-# Menu Configuration | 菜单配置
+# Menu Configuration
 # See: https://fixit.lruihao.cn/documentation/basics/#menu-configuration
 # -------------------------------------------------------------------------------------
+
+# -----------------------------
+# Home
+# -----------------------------
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[main.params]
+icon = "fa-solid fa-house"
+
+
+# -----------------------------
+# Teaching
+# -----------------------------
+[[main]]
+identifier = "teaching"
+name = "Teaching"
+url = "/teaching/"
+weight = 2
+
+[main.params]
+icon = "fa-solid fa-chalkboard-teacher"
+
+
+# Teaching → Courses
+[[main]]
+identifier = "courses"
+parent = "teaching"
+name = "Courses"
+url = "/courses/"
+weight = 1
+
+[main.params]
+icon = "fa-solid fa-book-open"
+
+
+# -----------------------------
+# Blog
+# -----------------------------
+[[main]]
+identifier = "blog"
+name = "Blog"
+url = "/archives/"
+weight = 3
+
+[main.params]
+icon = "fa-solid fa-feather"
+
+
+# Blog → Archives
+[[main]]
+identifier = "archives"
+parent = "blog"
+name = "Archives"
+url = "/archives/"
+weight = 1
+
+[main.params]
+icon = "fa-solid fa-archive"
+
+
+# Blog → Categories
+[[main]]
+identifier = "categories"
+parent = "blog"
+name = "Categories"
+url = "/categories/"
+weight = 2
+
+[main.params]
+icon = "fa-solid fa-folder-tree"
+
+
+# Blog → Collections
+[[main]]
+identifier = "collections"
+parent = "blog"
+name = "Collections"
+url = "/collections/"
+weight = 3
+
+[main.params]
+icon = "fa-solid fa-layer-group"
+
+
+# Blog → Tags
+[[main]]
+identifier = "tags"
+parent = "blog"
+name = "Tags"
+url = "/tags/"
+weight = 4
+
+[main.params]
+icon = "fa-solid fa-tags"
+
+
+# -----------------------------
+# Projects
+# -----------------------------
+[[main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 4
+
+[main.params]
+icon = "fa-solid fa-diagram-project"
+
+
+# -----------------------------
+# Research
+# -----------------------------
+[[main]]
+identifier = "research"
+name = "Research"
+url = "/research/"
+weight = 5
+
+[main.params]
+icon = "fa-solid fa-flask"
+
+
+# -----------------------------
+# About
+# -----------------------------
+[[main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 90
+
+[main.params]
+icon = "fa-solid fa-user"
+
+
+# -----------------------------
+# Contact
+# -----------------------------
+[[main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 100
+
+[main.params]
+icon = "fa-solid fa-envelope"
+
+
+
+
+
 
 [[main]]
 identifier = "releases"
