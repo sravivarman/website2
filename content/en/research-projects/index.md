@@ -7,8 +7,7 @@ twemoji: false
 lightgallery: false
 ---
 
-> [!TIP]
-> ## Research & Student Projects
+## Research & Student Projects
  
 **Dr. Ravivarman Shanmugasundaram** is a Professor in the Department of Electrical and Electronics Engineering at Vardhaman College of Engineering, Hyderabad. His research focuses on **power electronics, renewable energy systems, electric vehicles, and intelligent energy management**, with strong involvement of undergraduate and postgraduate students.
 
@@ -16,8 +15,7 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 ---
 
-> [!TIP]
->## Research Areas
+## Research Areas
 - Power electronic converters for **solar PV and renewable energy systems**
 - **High step-up DC–DC converters** and voltage regulation techniques
 - **Multilevel inverters** and grid-connected power systems
