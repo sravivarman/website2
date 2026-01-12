@@ -211,24 +211,6 @@ weight = 23
 icon = "fa-solid fa-tags"
 
 [[main]]
-identifier = "showcase"
-name = "Showcase"
-url = "showcase/"
-weight = 31
-
-[main.params]
-icon = "fa-solid fa-blog"
-
-[[main]]
-identifier = "community"
-name = "Community"
-url = "community/"
-weight = 40
-
-[main.params]
-icon = "fa-regular fa-comments"
-
-[[main]]
 identifier = "github"
 pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
 url = "https://github.com/hugo-fixit/FixIt"
