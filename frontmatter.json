@@ -72,30 +72,6 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/content/en/showcase",
-      "title": "showcase"
-    },
-    {
-      "title": "references",
-      "path": "[[workspace]]/content/en/references"
-    },
-    {
-      "title": "guides",
-      "path": "[[workspace]]/content/en/guides"
-    },
-    {
-      "title": "documentation",
-      "path": "[[workspace]]/content/en/documentation"
-    },
-    {
-      "title": "contributing",
-      "path": "[[workspace]]/content/en/contributing"
-    },
-    {
-      "path": "[[workspace]]/content/en/ecosystem",
-      "title": "ecosystem"
-    },
-    {
       "title": "content",
       "path": "[[workspace]]/content"
     }
