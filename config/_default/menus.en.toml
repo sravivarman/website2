@@ -152,10 +152,3 @@ weight = 100
 
 [main.params]
 icon = "fa-solid fa-envelope"
-
-# -----------------------------
-# Mobile Menu Configuration
-
-[main.params]
-class = "text-center"
-type = "mobile"
