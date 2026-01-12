@@ -1,69 +1,94 @@
 # FixIt Theme Documentation Site
 
-Hugo-based documentation site for the [FixIt](https://github.com/hugo-fixit/FixIt) theme, deployed at [fixit.lruihao.cn](https://fixit.lruihao.cn/).
+Hugo-based documentation site for the [FixIt](https://github.com/hugo-fixit/FixIt) theme.
 
 ## Architecture
 
-- **Hugo SSG** (≥0.147.7 extended) with [Hugo Modules](config/_default/module.toml) for theme components
-- Theme modules imported via `go.mod`: FixIt core + component shortcodes (`shortcode-*`, `cmpt-*`)
-- Content in `content/en/` organized into sections: `documentation/`, `guides/`, `contributing/`, `ecosystem/`
-- Multi-config split across `config/_default/`, `config/development/`, `config/production/`
+- **Hugo SSG** (≥0.147.7 extended) with Hugo Modules for theme components
+- Theme modules in `go.mod`: FixIt core + components (`shortcode-*`, `cmpt-*`)
+- Content in `content/en/` → sections: `documentation/`, `guides/`, `contributing/`, `ecosystem/`
+- Config split: `config/_default/` (shared), `config/development/`, `config/production/`
 
 ## Development Commands
 
 ```bash
-pnpm install           # Install dependencies first
-pnpm run server        # Local dev server with drafts, hot reload
-pnpm run server:production  # Test production environment locally
-pnpm run server:development # Use local sibling theme repos via hugo.work
-pnpm run lint          # Run ESLint + autocorrect + markdownlint
-pnpm run lint:fix      # Auto-fix linting issues
-pnpm run update        # Update Hugo modules
+pnpm install                    # Required first
+pnpm run server                 # Dev server with drafts + hot reload
+pnpm run server:production      # Test production locally
+pnpm run server:development     # Edit FixIt theme via hugo.work (requires sibling repos)
+pnpm run lint:fix               # Auto-fix lint issues before commit
+pnpm run update                 # Update Hugo modules
 ```
-
-For editing the FixIt theme alongside docs, clone `FixIt` as sibling and use `pnpm run server:development`.
 
 ## Content Conventions
 
-### Front Matter
-Standard Hugo front matter with FixIt-specific fields. Key patterns in [content/en/documentation/](content/en/documentation/):
-- `collections`: Groups related articles (e.g., "Markdown Syntax", "Extended Shortcodes")
-- `resources`: Define featured images with `name: featured-image`
-- `lightgallery: true`: Enable image zoom on page
-
-### Shortcodes
-Use FixIt extended shortcodes, not raw HTML. Common patterns:
-
-```markdown
-{{< admonition type=tip title="Title" open=true >}}
-Content with **markdown** support.
-{{< /admonition >}}
-
-{{< link "url" "text" "title" true "fa-solid fa-icon" >}}
-
-{{< version 0.3.13 >}}  <!-- Mark feature versions -->
+### Front Matter (required fields)
+```yaml
+title: Page Title
+date: 2024-03-07T15:37:59+08:00
+resources:
+  - name: featured-image        # Required for cover images
+    src: cover.webp
+collections:
+  - Getting Started             # Groups related articles in series
+lightgallery: true              # Enable image zoom
 ```
 
-Prefer [GitHub Alerts syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts) for cross-platform compatibility:
+### Shortcodes - Use FixIt shortcodes, NOT raw HTML
+
+```markdown
+{{< version 0.3.13 >}}          <!-- Mark when feature was added/changed -->
+
+{{< admonition type=tip title="Title" open=true >}}
+Content here.
+{{< /admonition >}}
+```
+
+**Prefer GitHub Alerts** for cross-platform compatibility:
 ```markdown
 > [!TIP]
-> Use this for tips.
+> Portable callout syntax.
 ```
 
-## File Structure Patterns
+### Version Documentation
+Always mark features with `{{< version X.Y.Z >}}` or `{{< version X.Y.Z changed >}}` when documenting new/changed functionality.
 
-- **Page bundles**: `section/page-name/index.md` with resources in same folder
-- **Section pages**: `_index.md` for section landing pages
-- **Custom layouts**: `layouts/_shortcodes/` and `layouts/_partials/custom/`
-- **Data files**: YAML in `data/` for structured content (projects, friends, timeline)
+## File Structure
 
-## Linting & Style
+| Pattern | Example | Use |
+|---------|---------|-----|
+| Page bundle | `guides/pwa-support/index.md` | Article with local images |
+| Section landing | `documentation/_index.md` | List page for section |
+| Custom layouts | `layouts/_shortcodes/`, `layouts/_partials/custom/` | Site-specific overrides |
+| Data files | `data/friends.yml`, `data/projects.en.yml` | Structured content (YAML) |
 
-- ESLint via `@antfu/eslint-config` for JS
-- Markdownlint + autocorrect for content (pre-commit hook via simple-git-hooks)
+## Menu Configuration
+
+Edit `config/_default/menus.en.toml` for navigation. Pattern:
+```toml
+[[main]]
+identifier = "unique-id"
+parent = "documentation"        # Optional: nest under parent
+name = "Display Name"
+url = "path/"
+weight = 10                     # Sort order
+[main.params]
+icon = "fa-solid fa-icon"
+```
+
+## CSS Customization
+
+- Override theme styles: `assets/css/_override.scss`
+- Add custom styles: `assets/css/_custom.scss`
+- Custom JS: `assets/js/custom.js`
+
+## Linting (pre-commit hook)
+
+- ESLint for JS (`@antfu/eslint-config`)
+- Markdownlint + autocorrect for content
+- Run `pnpm run lint:fix` before committing
 
 ## Deployment
 
-- GitHub Actions → GitHub Pages ([.github/workflows/hugo.yml](.github/workflows/hugo.yml))
-- Also deployed to Vercel (production at fixit.lruihao.cn)
-- Build command: `hugo --gc --minify`
+- GitHub Actions → GitHub Pages (`.github/workflows/hugo.yml`)
+- Build: `hugo --gc --minify`
