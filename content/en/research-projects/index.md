@@ -29,20 +29,6 @@ His work combines **theoretical analysis, simulation, and practical implementati
 ## Projects Guided (Student Projects Supervised)
 
 > ⭐ indicates projects that **led to conference or journal publications**
-<<<<<<< HEAD
-=======
-
-### Filter Projects by Area
-<div class="filter-controls">
-  <button onclick="filterProjects('all')">All</button>
-  <button onclick="filterProjects('PV')">PV</button>
-  <button onclick="filterProjects('EV')">EV</button>
-  <button onclick="filterProjects('Converter')">Converter</button>
-  <button onclick="filterProjects('IoT')">IoT</button>
-</div>
-
----
->>>>>>> parent of 68d68e7 (Update index.md)
 
 ### Filter Projects by Area
 <div class="filter-controls">
