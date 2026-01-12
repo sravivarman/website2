@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 # FixIt theme version
-version = "0.4.X"
+version = ""
 # website description for RSS, SEO, Open Graph and Twitter Cards
 description = "A Clean, Elegant but Advanced Hugo Theme FixIt"
 # site keywords
@@ -92,11 +92,6 @@ snippetLength = 30
 highlightTag = "em"
 # whether to use the absolute URL based on the baseURL in search index
 absoluteURL = false
-
-[search.algolia]
-index = ""
-appID = "YKOM6PKLUY"
-searchKey = "a44c110d3ac360be2c69cd79d34b77a8"
 
 [search.fuse]
 # FixIt 0.2.17 | NEW https://fusejs.io/api/options.html
@@ -683,7 +678,7 @@ start = "left"
 # 可用值：["top", "bottom"]
 position = "top"
 reversed = false
-light = "#000"
+light = "#ff4800"
 dark = "#fff"
 height = "2px"
 
@@ -1427,7 +1422,7 @@ enable = true
 # Auto translation configuration
 # See: https://github.com/xnx3/translate/
 [autoTranslate]
-enable = true
+enable = false
 # The translation service provider, ['client.edge', 'translate.service']
 # See: https://translate.zvo.cn/43086.html
 service = 'translate.service'
@@ -1436,16 +1431,7 @@ service = 'translate.service'
 # See the full language list: https://api.translate.zvo.cn/language.json
 languages = [
   'english',
-  'chinese_simplified',
-  'chinese_traditional',
-  'french',
-  'russian',
-  'spanish',
   'hindi',
-  'deutsch',
-  'korean',
-  'japanese',
-  # 'arabic', # 阿拉伯语阅读顺序体验不佳
 ]
 # Element IDs that needs to be ignored for translation, e.g. ["comment", ...]
 ignoreID = []
@@ -1463,7 +1449,7 @@ ignoreText = [
   'Cell+',
 ]
 # Whether to detect the local language
-detectLocalLanguage = true
+detectLocalLanguage = false
 # translate.js CDN
 cdn = ""
 # Whether to enable Enterprise-level translation channel
