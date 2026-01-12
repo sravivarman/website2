@@ -289,3 +289,37 @@
     border-radius: 0 0 8px 8px;
   }
 }
+
+// ==============================
+// Project Page Specific Styling
+// 项目页面专用样式
+// ==============================
+
+// Override admonition styling for project years - header only colored, content plain
+.admonition {
+  &.tip, &.info, &.success, &.abstract, &.warning, &.question, &.note, &.failure {
+    background-color: white;
+    border-left: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    
+    .admonition-content {
+      background-color: white;
+      color: #333;
+      border: 1px solid #e0e0e0;
+      border-top: none;
+      padding: 1rem;
+    }
+  }
+}
+
+// Remove collapsible functionality - hide details/summary elements
+.admonition details,
+.admonition summary {
+  display: none !important;
+}
+
+// Remove any dropdown arrows or collapse indicators
+.admonition .admonition-title::after,
+.admonition .admonition-title::before {
+  display: none !important;
+}
