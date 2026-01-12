@@ -17,16 +17,6 @@ keywords:
   - hugo-fixit
   - FixIt
   - Contribution
-menu:
-  main:
-    identifier: contributing
-    parent: documentation
-    name: Contributing
-    title: Contribute to the FixIt project
-    weight: 4
-    params:
-      icon: fa-solid fa-heart-circle-bolt text-danger fa-beat
-      # class: fa-bounce
 ---
 
 Hugo FixIt is eager for enthusiasm and participation from the open-source community. We need your support!
