@@ -1,22 +1,24 @@
 ---
 title: Research & Student Projects
-subtitle: Research areas, student projects guided, and opportunities for students
+subtitle: Research areas, student projects supervised, and opportunities for students
 date: 2026-01-10
 comment: false
 twemoji: false
 lightgallery: false
 ---
 
-> [!TIP]
-> ## Research & Student Projects
+> [!note] <strong>Research & Student Projects</strong>
  
-**Dr. Ravivarman Shanmugasundaram** is a Professor in the Department of Electrical and Electronics Engineering at Vardhaman College of Engineering, Hyderabad. His research focuses on **power electronics, renewable energy systems, electric vehicles, and intelligent energy management**, with strong involvement of undergraduate and postgraduate students.
+**Dr. Ravivarman Shanmugasundaram** is a Professor in the Department of Electrical and Electronics Engineering at Vardhaman College of Engineering, Hyderabad. His research and project activities focus on p**ower electronics, renewable energy systems, electric vehicles, and intelligent energy management**, with an emphasis on practical engineering challenges and technologies relevant to current and emerging industry needs.
 
-His work combines **theoretical analysis, simulation, and practical implementation**, encouraging students to work on **real-world, publication-oriented problems**.
+He actively works with undergraduate and postgraduate students in a collaborative lab environment that mirrors real engineering practice. Students are encouraged to take ownership of the complete development process, including **problem formulation, analytical reasoning, simulation studies, control strategy development, and experimental implementation**. Projects typically evolve from conceptual ideas to functional prototypes, exposing students to design trade-offs, system integration challenges, and practical constraints.
+
+Through this structured yet flexible approach, he fosters strong technical depth, independent thinking, and effective teamwork. The collaborative lab culture enables students to translate theoretical concepts into working solutions and prepares them to contribute meaningfully in industrial and applied research settings.
+
 
 ---
 
-## Research Areas
+> [!TIP] <strong>Research Areas</strong>
 - Power electronic converters for **solar PV and renewable energy systems**
 - **High step-up DC–DC converters** and voltage regulation techniques
 - **Multilevel inverters** and grid-connected power systems
@@ -26,7 +28,7 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 ---
 
-## Projects Guided (Student Projects Supervised)
+> [!example] <strong> Student Projects Supervised</strong>
 
 ---
 
@@ -172,36 +174,9 @@ His work combines **theoretical analysis, simulation, and practical implementati
 </details>
 
 ---
-
-## Project Ideas for Students
-
-Students interested in working with **power electronics, renewable energy, electric vehicles, and intelligent systems** may consider the following project ideas:
-
-### Power Electronics & Converters
-- High-gain DC–DC converters with reduced switch stress
-- Fault-tolerant multilevel inverter control
-- Wide-bandgap (SiC/GaN) device-based converters
-
-### Renewable Energy Systems
-- MPPT algorithms under partial shading
-- Hybrid PV–wind–battery system design
-- Grid-tied vs off-grid inverter performance analysis
-
-### Electric Vehicles
-- Battery State-of-Health estimation using machine learning
-- EV fast-charging DC–DC converter design
-- Renewable-energy-powered EV charging stations
-
-### IoT & Intelligent Systems
-- IoT-based monitoring of PV and battery systems
-- Predictive maintenance of power converters
-- AI-based fault detection in energy systems
-
-Motivated students are encouraged to propose **custom project ideas aligned with their interests**.
-
 ---
 
-## Selected Publications (Linked to Projects)
+> [!success] <strong>Publications </strong>
 
 <a id="pub-boost-flyback"></a>
 - Ravivarman S. et al., *Analysis and Simulation of Boost–Flyback Converter for Renewable Energy Integration*, E3S Web of Conferences, 2024.
@@ -210,5 +185,5 @@ Motivated students are encouraged to propose **custom project ideas aligned with
 - Ravivarman S. et al., *Switched Quasi Z-Source DC–DC Converter for Photovoltaic Systems*, CONIT, 2023.
 
 ---
-
+{.awesome-hr}
 

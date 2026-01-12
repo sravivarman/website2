@@ -24,20 +24,6 @@ My courses combine **structured lectures** with **discussion and problem-solving
 
 ---
 
-## <i class="fa-solid fa-flask"></i> Projects and Classroom Practice
-
-Project work forms an integral part of my teaching. Students engage in **simulation-based and design-oriented projects** that require them to apply concepts learned in class to practical engineering problems.
-
-These projects help students develop:
-
-- <i class="fa-solid fa-pen-ruler"></i> Problem formulation and modeling skills  
-- <i class="fa-solid fa-file-lines"></i> Technical documentation and reporting  
-- <i class="fa-solid fa-magnifying-glass-chart"></i> Critical analysis and interpretation of results  
-
-Structured discussion and review sessions are incorporated to evaluate outcomes, compare approaches, and reflect on design choices, assumptions, and limitations.
-
----
-
 ## <i class="fa-solid fa-bullseye"></i> Teaching Objectives
 
 Through my teaching, I aim to help students:
@@ -50,3 +36,4 @@ Through my teaching, I aim to help students:
 Ultimately, my goal is to prepare students to engage thoughtfully and effectively with evolving engineering challenges.
 
 ---
+{.awesome-hr}
