@@ -16,7 +16,8 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 ---
 
-## Research Areas
+> [!TIP]
+>## Research Areas
 - Power electronic converters for **solar PV and renewable energy systems**
 - **High step-up DC–DC converters** and voltage regulation techniques
 - **Multilevel inverters** and grid-connected power systems
