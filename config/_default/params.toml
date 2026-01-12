@@ -145,7 +145,7 @@ typeit = false
 # subtitle name
 name = ""
 # whether to use typeit animation for subtitle name
-typeit = true
+typeit = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
