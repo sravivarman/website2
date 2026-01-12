@@ -6,9 +6,7 @@ categories:
 hiddenFromHomePage: true
 related:
   enable: false
-menu:
-  main:
-    parent: contributing
+
 ---
 
 Help us to improve the documentation by identifying issues and suggesting changes.

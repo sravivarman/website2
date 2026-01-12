@@ -21,14 +21,6 @@ autoTranslate:
 cascade:
   params:
     type: posts
-menu:
-  main:
-    identifier: ecosystem
-    name: Ecosystem
-    title: Hugo FixIt Ecosystem
-    weight: 30
-    params:
-      icon: fa-solid fa-circle-nodes
 ---
 
 The Hugo FixIt ecosystem includes: documentation, theme components, development tools, third-party components, etc.

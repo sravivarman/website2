@@ -158,3 +158,15 @@
 @media only screen and (max-width: 680px) {
   //
 }
+
+.filter-controls button {
+  margin: 4px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.filter-controls button:hover {
+  background: #eaeaea;
+}
