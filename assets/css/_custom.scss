@@ -424,23 +424,30 @@
   .admonition-title {
     margin: 0;
     font-weight: 600;
-    display: block !important;
+    display: flex;
+    align-items: center;
     cursor: default;
     position: relative;
-    line-height: 1.5;
+    gap: 0.5rem;
     
-    // Hide all icons to avoid overlap issues
     i {
-      display: none !important;
+      margin-right: 0.75rem;
+      flex-shrink: 0;
+      width: auto;
+      min-width: 1rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
     }
     
-    // Ensure clean text display
-    .admonition-title-text,
-    span {
-      display: inline-block;
-      width: 100%;
-      padding: 0;
-      margin: 0;
+    // Ensure text doesn't overlap with icon
+    span, 
+    .admonition-title-text {
+      flex: 1;
+      margin-left: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     
     // Remove any toggle/collapse functionality
