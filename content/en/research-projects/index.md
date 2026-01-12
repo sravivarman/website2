@@ -7,17 +7,22 @@ description: "Research areas, student projects guided, and opportunities for stu
 
 **Dr. Ravivarman Shanmugasundaram** is a Professor in the Department of Electrical and Electronics Engineering at Vardhaman College of Engineering, Hyderabad. His research focuses on **power electronics, renewable energy systems, electric vehicles, and intelligent energy management**, with strong involvement of undergraduate and postgraduate students.
 
+{{< admonition type=abstract title="Research Philosophy" open=true >}}
 His work combines **theoretical analysis, simulation, and practical implementation**, encouraging students to work on **real-world, publication-oriented problems**.
+{{< /admonition >}}
 
 ---
 
 ## Research Areas
+
+{{< admonition type=info title="Core Research Domains" open=true >}}
 - Power electronic converters for **solar PV and renewable energy systems**
 - **High step-up DC–DC converters** and voltage regulation techniques
 - **Multilevel inverters** and grid-connected power systems
 - **Electric vehicles**, battery management, and charging systems
 - **Motor drives**, including BLDC motor analysis
 - **Smart grids**, microgrids, and hybrid renewable energy systems
+{{< /admonition >}}
 
 ---
 
@@ -201,29 +206,41 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 ## Project Ideas for Students
 
+{{< admonition type=tip title="Open to Collaboration" open=true >}}
 Students interested in working with **power electronics, renewable energy, electric vehicles, and intelligent systems** may consider the following project ideas:
+{{< /admonition >}}
 
 ### Power Electronics & Converters
+{{< admonition type=question title="Advanced Topics" >}}
 - High-gain DC–DC converters with reduced switch stress
 - Fault-tolerant multilevel inverter control
 - Wide-bandgap (SiC/GaN) device-based converters
+{{< /admonition >}}
 
 ### Renewable Energy Systems
+{{< admonition type=success title="Green Energy Focus" >}}
 - MPPT algorithms under partial shading
 - Hybrid PV–wind–battery system design
 - Grid-tied vs off-grid inverter performance analysis
+{{< /admonition >}}
 
 ### Electric Vehicles
+{{< admonition type=warning title="Emerging Technologies" >}}
 - Battery State-of-Health estimation using machine learning
 - EV fast-charging DC–DC converter design
 - Renewable-energy-powered EV charging stations
+{{< /admonition >}}
 
 ### IoT & Intelligent Systems
+{{< admonition type=abstract title="Smart Solutions" >}}
 - IoT-based monitoring of PV and battery systems
 - Predictive maintenance of power converters
 - AI-based fault detection in energy systems
+{{< /admonition >}}
 
+{{< admonition type=note title="Custom Projects Welcome" open=true >}}
 Motivated students are encouraged to propose **custom project ideas aligned with their interests**.
+{{< /admonition >}}
 
 ---
 
