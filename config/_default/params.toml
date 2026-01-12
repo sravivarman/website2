@@ -836,8 +836,8 @@ head = [
   "inject/fixit-docs-bookmark.html",
   "inject/shortcode-rewards.html",
 ]
-menuDesktop = [ "inject/translate-menu-desktop.html", ]
-menuMobile = [ "inject/translate-menu-mobile.html", ]
+menuDesktop = []
+menuMobile = []
 profile = []
 aside = [ "custom/aside.html", ]
 comment = []
