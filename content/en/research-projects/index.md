@@ -8,13 +8,12 @@ lightgallery: false
 ---
 
 > [!note] <strong>Research & Student Projects</strong>
- 
-**Dr. Ravivarman Shanmugasundaram** is a Professor in the Department of Electrical and Electronics Engineering at Vardhaman College of Engineering, Hyderabad. His research and project activities focus on p**ower electronics, renewable energy systems, electric vehicles, and intelligent energy management**, with an emphasis on practical engineering challenges and technologies relevant to current and emerging industry needs.
 
-He actively works with undergraduate and postgraduate students in a collaborative lab environment that mirrors real engineering practice. Students are encouraged to take ownership of the complete development process, including **problem formulation, analytical reasoning, simulation studies, control strategy development, and experimental implementation**. Projects typically evolve from conceptual ideas to functional prototypes, exposing students to design trade-offs, system integration challenges, and practical constraints.
+ My research and project activities focus on **power electronics**, **renewable energy systems**, **electric vehicles**, and **intelligent energy management**, with an emphasis on practical engineering challenges and technologies relevant to current and emerging industry needs.
 
-Through this structured yet flexible approach, he fosters strong technical depth, independent thinking, and effective teamwork. The collaborative lab culture enables students to translate theoretical concepts into working solutions and prepares them to contribute meaningfully in industrial and applied research settings.
+I actively work with undergraduate and postgraduate students in a **collaborative lab environment** that reflects real engineering practice. Students are encouraged to take ownership of the complete development process, including **problem formulation**, **analytical reasoning**, **simulation studies**, **control strategy development**, and **experimental implementation**. Projects typically progress from conceptual ideas to functional prototypes, allowing students to engage with design trade-offs, system integration challenges, and practical constraints.
 
+Through this structured yet flexible approach, I aim to foster strong technical depth, independent thinking, and effective teamwork. The collaborative lab culture helps students **translate theoretical concepts into working solutions** and prepares them to contribute meaningfully in industrial and applied research settings.
 
 ---
 
