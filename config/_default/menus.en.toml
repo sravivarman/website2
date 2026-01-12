@@ -103,29 +103,16 @@ icon = "fa-solid fa-tags"
 
 
 # -----------------------------
-# Projects
+# Research & Projects
 # -----------------------------
 [[main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects/"
-weight = 4
-
-[main.params]
-icon = "fa-solid fa-diagram-project"
-
-
-# -----------------------------
-# Research
-# -----------------------------
-[[main]]
-identifier = "research"
-name = "Research"
-url = "/research/"
+identifier = "research-projects"
+name = "Research & Projects"
+url = "/research-projects/"
 weight = 5
 
 [main.params]
-icon = "fa-solid fa-flask"
+icon = "fa-solid fa-diagram-project"
 
 
 # -----------------------------
