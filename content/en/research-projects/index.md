@@ -217,16 +217,4 @@ Motivated students are encouraged to propose **custom project ideas aligned with
 
 ---
 
-<script>
-function filterProjects(tag) {
-  const projects = document.querySelectorAll('.project-item');
-  projects.forEach(p => {
-    const tags = p.dataset.tags || '';
-    if (tag === 'all' || tags.includes(tag)) {
-      p.style.display = 'list-item';
-    } else {
-      p.style.display = 'none';
-    }
-  });
-}
-</script>
+
