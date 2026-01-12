@@ -49,7 +49,7 @@ avatar = "/images/avatar.png"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
-repo = "https://github.com/hugo-fixit/docs"
+repo = ""
 branch = "main"
 # the content directory path relative to the root of the repository
 dir = "content"
@@ -845,7 +845,6 @@ footer = []
 widgets = []
 assets = [
   "custom/use-assets.html",
-  "inject/cmpt-translate.html",
   "inject/santa-hat.fixit.html",
   "inject/shortcode-caniuse.html",
 ]

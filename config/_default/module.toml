@@ -10,9 +10,6 @@ path = "github.com/hugo-fixit/FixIt"
 path = "github.com/hugo-fixit/cmpt-santa-hat"
 
 [[imports]]
-path = "github.com/hugo-fixit/cmpt-translate"
-
-[[imports]]
 path = "github.com/hugo-fixit/component-projects"
 
 [[imports]]
