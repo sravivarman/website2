@@ -45,16 +45,9 @@
           "isPublishDate": true
         },
         {
-          "title": "Last Modified",
-          "name": "lastmod",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isModifiedDate": true
-        },
-        {
-          "title": "Slug",
-          "name": "slug",
-          "type": "string"
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
         },
         {
           "title": "Is in draft",
@@ -62,30 +55,14 @@
           "type": "draft"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
           "title": "Tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Collections",
-          "name": "collections",
-          "type": "taxonomy",
-          "taxonomyId": "collections"
-        },
-        {
-          "title": "Comment",
-          "name": "comment",
-          "type": "boolean"
-        },
-        {
-          "title": "Lightgallery",
-          "name": "lightgallery",
-          "type": "boolean"
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }
@@ -117,6 +94,10 @@
     {
       "path": "[[workspace]]/content/en/ecosystem",
       "title": "ecosystem"
+    },
+    {
+      "title": "content",
+      "path": "[[workspace]]/content"
     }
   ],
   "frontMatter.framework.startCommand": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0",

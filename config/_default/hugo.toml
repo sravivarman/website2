@@ -30,11 +30,8 @@ enableEmoji = true
 # the main sections of a site
 mainSections = [
   "contributing",
-  "documentation",
-  "ecosystem",
   "guides",
   "references",
-  "guides",
 ]
 
 # the editor to use when creating new content

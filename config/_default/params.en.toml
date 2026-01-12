@@ -44,7 +44,6 @@ name = "Learn, While You Can..."
 subtitle = "Learn, While You Can..."
 
 [social]
-GitHub = "hugo-fixit"
 Twitter = "lruihao"
 Email = "fixit@lruihao.cn"
 RSS = true
