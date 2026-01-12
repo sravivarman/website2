@@ -178,169 +178,233 @@
 
 // Abstract - Light Blue
 .admonition.abstract {
-  background-color: #f0f9ff;
-  border-left: 4px solid #0ea5e9;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #f0f9ff;
+    border-left: 4px solid #0ea5e9;
     color: #0ea5e9;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Info - Blue  
 .admonition.info {
-  background-color: #eff6ff;
-  border-left: 4px solid #3b82f6;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #eff6ff;
+    border-left: 4px solid #3b82f6;
     color: #3b82f6;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Tip - Green
 .admonition.tip {
-  background-color: #f0fdf4;
-  border-left: 4px solid #22c55e;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #f0fdf4;
+    border-left: 4px solid #22c55e;
     color: #22c55e;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Success - Green
 .admonition.success {
-  background-color: #f0fdf4;
-  border-left: 4px solid #16a34a;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #f0fdf4;
+    border-left: 4px solid #16a34a;
     color: #16a34a;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Question - Light Green
 .admonition.question {
-  background-color: #f7fee7;
-  border-left: 4px solid #84cc16;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #f7fee7;
+    border-left: 4px solid #84cc16;
     color: #84cc16;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Warning - Orange
 .admonition.warning {
-  background-color: #fffbeb;
-  border-left: 4px solid #f59e0b;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #fffbeb;
+    border-left: 4px solid #f59e0b;
     color: #f59e0b;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Failure - Red
 .admonition.failure {
-  background-color: #fef2f2;
-  border-left: 4px solid #ef4444;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #fef2f2;
+    border-left: 4px solid #ef4444;
     color: #ef4444;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
 // Note - Gray
 .admonition.note {
-  background-color: #f9fafb;
-  border-left: 4px solid #6b7280;
+  background-color: transparent;
+  border: none;
   border-radius: 0;
   box-shadow: none;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
   
   .admonition-title {
-    background-color: transparent;
+    background-color: #f9fafb;
+    border-left: 4px solid #6b7280;
     color: #6b7280;
     padding: 0.8rem 1rem;
     border-radius: 0;
     font-weight: 600;
+    margin: 0 0 1rem 0;
+    cursor: default;
   }
   
   .admonition-content {
-    display: none;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    color: inherit;
+    margin: 0;
   }
 }
 
@@ -355,15 +419,47 @@
   border-radius: 0;
   box-shadow: none;
   border: none;
+  background: transparent;
   
   .admonition-title {
     margin: 0;
     font-weight: 600;
     display: flex;
     align-items: center;
+    cursor: default;
     
     i {
       margin-right: 0.5rem;
     }
+    
+    // Remove any toggle/collapse functionality
+    &::after,
+    &::before {
+      display: none !important;
+    }
   }
+  
+  .admonition-content {
+    display: block !important;
+  }
+  
+  // Remove details/summary behavior completely
+  details,
+  summary {
+    display: none !important;
+  }
+}
+
+// Remove any accordion/collapsible behavior from Hugo theme
+.admonition[open] .admonition-title::after,
+.admonition:not([open]) .admonition-title::after {
+  display: none !important;
+}
+
+// Ensure content is always visible
+.admonition .admonition-content {
+  opacity: 1 !important;
+  visibility: visible !important;
+  height: auto !important;
+  overflow: visible !important;
 }
