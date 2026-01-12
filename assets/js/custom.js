@@ -1,15 +1,15 @@
 /**
  * Custom JavaScript for FixIt documentation site.
- * @author @Lruihao https://lruihao.cn
+ * @author @sravivarman https://sravivarman.com
  */
 class FixItDocs {
   constructor() {
     this.author = {
-      name: 'Lruihao',
-      github: 'https://github.com/Lruihao',
-      website: 'https://lruihao.cn',
+      name: 'sravivarman',
+      github: 'https://github.com/sravivarman',
+      website: 'https://sravivarman.com',
     }
-    this.site = 'FixIt'
+    this.site = 'SRavivarman'
     this.url = location.origin
   }
 
@@ -18,16 +18,17 @@ class FixItDocs {
    * @returns {FixItDocs} FixItDocs instance
    */
   themeInfo() {
-    let subtitle = window.fixit.config?.version || 'unknown'
+    // Commented out version display in header subtitle
+    // let subtitle = window.fixit.config?.version || 'unknown'
 
-    if (subtitle.split('-').length > 2) {
-      subtitle = subtitle.replace(/-.*$/, '*')
-    }
-    // set header subtitle with theme version (desktop and mobile)
-    const headerSubtitles = document.querySelectorAll('.header-subtitle')
-    headerSubtitles.forEach((el) => {
-      el.textContent = subtitle
-    })
+    // if (subtitle.split('-').length > 2) {
+    //   subtitle = subtitle.replace(/-.*$/, '*')
+    // }
+    // // set header subtitle with theme version (desktop and mobile)
+    // const headerSubtitles = document.querySelectorAll('.header-subtitle')
+    // headerSubtitles.forEach((el) => {
+    //   el.textContent = subtitle
+    // })
     return this
   }
 
