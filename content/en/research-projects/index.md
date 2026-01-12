@@ -1,6 +1,10 @@
 ---
-title: "Research & Student Projects"
-description: "Research areas, student projects guided, and opportunities for students"
+title: Research & Student Projects
+subtitle: Research areas, student projects guided, and opportunities for students
+date: 2026-01-10
+comment: false
+twemoji: false
+lightgallery: false
 ---
 
 ## Research & Student Projects
@@ -22,17 +26,6 @@ His work combines **theoretical analysis, simulation, and practical implementati
 ---
 
 ## Projects Guided (Student Projects Supervised)
-
-> ⭐ indicates projects that **led to conference or journal publications**
-
-### Filter Projects by Area
-<div class="filter-controls">
-  <button onclick="filterProjects('all')">All</button>
-  <button onclick="filterProjects('PV')">PV</button>
-  <button onclick="filterProjects('EV')">EV</button>
-  <button onclick="filterProjects('Converter')">Converter</button>
-  <button onclick="filterProjects('IoT')">IoT</button>
-</div>
 
 ---
 
@@ -67,7 +60,7 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 <ul>
   <li class="project-item" data-tags="PV,Converter">
-    ⭐ <strong>Analysis and simulation of boost–flyback converter for renewable energy integration</strong>
+    <strong>Analysis and simulation of boost–flyback converter for renewable energy integration</strong>
     <a href="#pub-boost-flyback">[Publication]</a>
   </li>
 </ul>
@@ -81,13 +74,13 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 <ul>
   <li class="project-item" data-tags="PV,Converter">
-    ⭐ <strong>Simulation of modified switched capacitor–inductor based boost converter with reduced switch voltage stress for PV systems</strong> (PG)
+    <strong>Simulation of modified switched capacitor–inductor based boost converter with reduced switch voltage stress for PV systems</strong> (PG)
   </li>
   <li class="project-item" data-tags="EV,Converter">
     <strong>Comparative analysis of DC–DC converters used in fuel cell vehicles</strong>
   </li>
   <li class="project-item" data-tags="PV,Converter">
-    ⭐ <strong>Switched quasi Z-source DC–DC converter for photovoltaic systems</strong>
+    <strong>Switched quasi Z-source DC–DC converter for photovoltaic systems</strong>
     <a href="#pub-zsource-pv">[Publication]</a>
   </li>
 </ul>
@@ -110,10 +103,10 @@ His work combines **theoretical analysis, simulation, and practical implementati
     <strong>IoT-based home automation using voice control</strong> (UG)
   </li>
   <li class="project-item" data-tags="PV,Converter">
-    ⭐ <strong>Non-isolated high-gain triple-port DC–DC buck–boost converter for photovoltaic applications</strong> (UG)
+    <strong>Non-isolated high-gain triple-port DC–DC buck–boost converter for photovoltaic applications</strong> (UG)
   </li>
   <li class="project-item" data-tags="EV,Converter">
-    ⭐ <strong>Simulation of high-gain boost–Ćuk DC–DC converter for fuel-cell-powered electric vehicle</strong> (PG)
+    <strong>Simulation of high-gain boost–Ćuk DC–DC converter for fuel-cell-powered electric vehicle</strong> (PG)
   </li>
 </ul>
 
@@ -171,7 +164,7 @@ His work combines **theoretical analysis, simulation, and practical implementati
 
 <ul>
   <li class="project-item" data-tags="Inverter,Converter">
-    ⭐ <strong>Voltage balancing in diode-clamped multilevel inverter using boost converter</strong> (PG)
+    <strong>Voltage balancing in diode-clamped multilevel inverter using boost converter</strong> (PG)
   </li>
 </ul>
 
