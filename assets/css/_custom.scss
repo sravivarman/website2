@@ -427,6 +427,7 @@
     display: flex;
     align-items: center;
     cursor: default;
+    position: relative;
     
     i {
       margin-right: 0.5rem;
@@ -436,6 +437,7 @@
     &::after,
     &::before {
       display: none !important;
+      content: none !important;
     }
   }
   
@@ -462,4 +464,44 @@
   visibility: visible !important;
   height: auto !important;
   overflow: visible !important;
+}
+
+// Aggressively hide all possible arrow elements
+.admonition .admonition-title .fa-chevron-right,
+.admonition .admonition-title .fa-chevron-down,
+.admonition .admonition-title .fa-angle-right,
+.admonition .admonition-title .fa-angle-down,
+.admonition .admonition-title .fa-caret-right,
+.admonition .admonition-title .fa-caret-down {
+  display: none !important;
+}
+
+// Hide any right-aligned icons/arrows
+.admonition .admonition-title i:last-child,
+.admonition .admonition-title .icon:last-child {
+  display: none !important;
+}
+
+// Remove pointer cursor and disable clicks
+.admonition .admonition-title {
+  pointer-events: none;
+}
+
+// Re-enable text selection
+.admonition .admonition-title * {
+  pointer-events: auto;
+}
+
+// Force remove any right arrows/chevrons with CSS content
+.admonition .admonition-title::after {
+  content: "" !important;
+  display: none !important;
+}
+
+// Override theme-specific arrow classes
+.admonition .admonition-toggle,
+.admonition .toggle,
+.admonition .expand,
+.admonition .collapse {
+  display: none !important;
 }
