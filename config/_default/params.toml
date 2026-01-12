@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 # FixIt theme version
-version = ""
+version = "0.4.X"
 # website description for RSS, SEO, Open Graph and Twitter Cards
 description = "A Clean, Elegant but Advanced Hugo Theme FixIt"
 # site keywords
