@@ -25,9 +25,9 @@ defaultChatQuestions = [
 ]
 defaultSearchQuestions = [
   "Quick Start",
-  "Configure FixIt",
+  "Configures FixIt",
   "Content Management",
-  "Advanced Usage"
+  "Advanced Usages"
 ]
 
 [postSummary]
