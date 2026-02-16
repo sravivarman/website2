@@ -29,6 +29,7 @@ enableGitInfo = true
 enableEmoji = true
 # the main sections of a site
 mainSections = [
+  "posts",
   "contributing",
   "guides",
   "references",
